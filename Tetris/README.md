@@ -7,6 +7,6 @@ Medium
 ## Story:
 i got this Tetris game...play it to get the flag :)
 
-[a relative link](Tetris)
-[a relative link](Drawer)
+[Tetris](Tetris)
+[Drawer](Drawer)
 (download both to play)
