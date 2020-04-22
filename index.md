@@ -32,7 +32,7 @@
 
 &#x202b;
 שרמן שרמן, חברי הטוב לקליק האדום ולwitcher 3. מזל טוב על 18, עכשיו באופן חוקי אתה יכול לעשות שוטים של קליק עם וודקה (לא שיש לי ספק שאתה לא עושה את זה עכשיו, כי אתה רוסי וזה. בלי להיות גזען כמובן). אז הגעת לגיל המצוות וזה בר מצווה וזה. תמשיך לחבק עמודים,
-מחברך הטוב,
+מחברך הטוב,  
 > אופיר
 
 &#x202b;
@@ -69,7 +69,7 @@ At first you needed to extract Omri's file from the given image using `binwalk`.
 
 *Omri please add a write up*
 
-Than you have reached Tal's challange - thousands upon thousands of files and directory. The correct file was at the directories `2/3/4/2/0/0/2/`! In all the other files you had random lines from random wikipidia values.
+Than you have reached Tal's challange - thousands upon thousands of files and directories. The correct file was at the directories `2/3/4/2/0/0/2/`! In all the other files you had random lines from random wikipidia values.
 
 But the file content was weird, it was [brainfuck](https://en.wikipedia.org/wiki/Brainfuck), the result was a clue for you to go to the Dr' Erez Shiner class מבנים אלגבריים lecure 7 about RSA.
 
