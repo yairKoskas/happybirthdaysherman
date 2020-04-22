@@ -137,14 +137,15 @@ There you needed to notice that `N` was to small for RSA so you can break it to 
 And here you are!
 
 ------
-### יוצרי האתגרים
+### יוצרים
 
-אתגר | יוצרים
+חלק | יוצרים
 -----|-----
+הודעה | יואב ועמית
 רעיון | מילוא
 Image | ליפשיץ
 Pwn | עומרי
 Reversing | עומרי
 Misc | טל
-Rsa | עמית ניר
+Rsa | עמית
 אתר | ליפשיץ
