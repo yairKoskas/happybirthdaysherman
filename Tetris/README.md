@@ -1,12 +1,12 @@
 # Tetris
 
 ## Category:
-Reverse (kind of)
+Pwn (kind of)
 ## Level:
 Medium
 ## Story:
-i got this Tetris game...play it to get the flag :)
+i got this Tetris game...figure out how it is built to get the flag :)
 
-[Tetris](Tetris)
-[Drawer](Drawer)
-(download both to play)
+[a relative link](Tetris)
+[a relative link](Drawer)
+(download both)
