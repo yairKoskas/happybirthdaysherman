@@ -31,7 +31,7 @@
 
 At first you needed to extract Omri's file from the given image using `binwalk`. The zip file was concatenated using simple python code to the image.
 
-<Omri please add a write up>
+  Omri please add a write up
 
 Than you have reached Tal's challange - thousands upon thousands of files and directory. The correct file was at the directories `2/3/4/2/0/0/2/`! In all the other files you had random lines from random wikipidia values.
 
