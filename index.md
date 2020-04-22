@@ -121,16 +121,18 @@
 
 ## Write up
 
+You were givan a zip with an image.
+
 At first you needed to extract Omri's file from the given image using `binwalk`. The zip file was concatenated using simple python code to the image.
 
 *Omri please add a write up*
 
-Than you have reached Tal's challange - thousands upon thousands of files and directories. The correct file was at the directories `2/3/4/0/2/`! In all the other files you had random lines from random wikipidia values.
+Than you have reached Tal's challange - thousands upon thousands of files and directories. You could find a hint by [searching](https://winaero.com/blog/find-files-containing-text-linux/) "SHERCTF". The correct file was at the directories `2/3/4/0/2/`! In all the other files you had random lines from random wikipidia values.
 
 But the file content was weird, it was [brainfuck](https://en.wikipedia.org/wiki/Brainfuck), the result was a clue for you to go to the Dr. Erez Shiner's class מבנים אלגבריים lecure 7 about RSA.
 
 In the comments if you press sort by new you will see `N`, `e`, and `c`.   
-There you needed to notice that `N` was to small for RSA so you can break it to `p` and `q` using [Integer factorization calculator](https://www.alpertron.com.ar/ECM.HTM).
+There you needed to notice that `N` was to small for RSA so you can break it to `p` and `q` using [Integer factorization calculator](https://www.alpertron.com.ar/ECM.HTM). After parsing the result with [long_to_bytes()](https://pythonhosted.org/pycrypto/Crypto.Util.number-module.html) you got the final link.
 
 And here you are!
 
@@ -141,6 +143,7 @@ And here you are!
 -----|-----
 רעיון | מילוא
 Image | ליפשיץ
+Pwn | עומרי
 Reversing | עומרי
 Misc | טל
 Rsa | עמית ניר
