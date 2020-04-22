@@ -111,6 +111,7 @@ Than you have reached Tal's challange - thousands upon thousands of files and di
 
 But the file content was weird, it was [brainfuck](https://en.wikipedia.org/wiki/Brainfuck), the result was a clue for you to go to the Dr' Erez Shiner class מבנים אלגבריים lecure 7 about RSA.
 
+In the comments if you press sort by new you will see `N`, `e`, and `c`.   
 There you needed to notice that `N` was to small for RSA so you can break it to `p` and `q` using [Integer factorization calculator](https://www.alpertron.com.ar/ECM.HTM).
 
 And here you are!
