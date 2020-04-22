@@ -1,6 +1,6 @@
 # מזל טוב שרמןןןןן
 
-[מזל טוב מקמינקא](WhatsApp Video 2020-04-22 at 15.51.05.mp4)
+[Happy birthday from Kaminka!](WhatsApp Video 2020-04-22 at 15.51.05.mp4)
 
 &#x202b;
 מזל טוב שרמן!!! 18 זה לא צחוק😝 תמשיך להיות חבר טוב ובן אדם שכיף להיות איתו. חוץ מזה נאחל לך חיים מאושרים, בעז"ה תאכל עוד הרבה קליק אדום ותצליח להתמודד עם קמינקא😂
