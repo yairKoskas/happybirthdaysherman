@@ -123,11 +123,23 @@
 
 You were givan a zip with an image.
 
-At first you needed to extract Omri's file from the given image using `binwalk`. The zip file was concatenated using simple python code to the image.
+At first you needed to extract Omri's file from the given image using `binwalk`. The file was concatenated using simple python code to the image.
 
-*Omri please add a write up*
+Then you've reached omri's pwn challenge (kind of misc) - you were asked to insert a numerical token. if you tried few numbers you seen it prints gibrish. if you disassemble / decompile the ELF, you see it init srand with your input number, and then prints about 50 times characters from array[rand()].
+you've hinted that you are with us quite an eppoch - a reference to the epoch time system - how many seconds elapsed from 1.1.1970. so when you entered this number corresponding with the date of your birthday - 23.4.2001 (using online converter - any time that day), you''ve got the flag: SHERCTF{b3st_tim3s: https://bit.ly/34Xq5qq}
 
-Than you have reached Tal's challange - thousands upon thousands of files and directories. You could find a hint by [searching](https://winaero.com/blog/find-files-containing-text-linux/) "SHERCTF". The correct file was at the directories `2/3/4/0/2/`! In all the other files you had random lines from random wikipidia values.
+
+Then you've reached the Tetris reverse challenge. you've got a tetris game. you've asked only to find out how the Drawer process (gui) and the Tetris process (keyboard input), communicates - when you reversed it, you saw its through signals. you've checked the /proc/{Drawer_pid}/status file, in this line:
+SigCgt: 0000000000022800
+the binary mask that tells you which signal handlers exsists for that process - when binary[i] == 1 iff theres an handler.
+and you saw that there is a signal handler for signal num 18, (SIGCONT), as your age.
+when you sent this signal to Drawer process, with
+kill -18 {Drawer_pid}
+each kill added a letter of the flag to the tetris gui, until finally:
+SHERCTF{here_1s_an0th3r_5igna1: {https://bit.ly/2VuTrcU}
+
+
+Then you have reached Tal's challange - thousands upon thousands of files and directories. You could find a hint by [searching](https://winaero.com/blog/find-files-containing-text-linux/) "SHERCTF". The correct file was at the directories `2/3/4/0/2/`! In all the other files you had random lines from random wikipidia values.
 
 But the file content was weird, it was [brainfuck](https://en.wikipedia.org/wiki/Brainfuck), the result was a clue for you to go to the Dr. Erez Shiner's class מבנים אלגבריים lecure 7 about RSA.
 
